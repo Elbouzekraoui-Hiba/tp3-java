@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="249.0" prefWidth="521.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tp3.VueController">
+   <children>
+      <Label fx:id="lblResultat" layoutX="14.0" layoutY="80.0" prefHeight="32.0" prefWidth="36.0" text="Bill" />
+      <TextArea fx:id="bill" layoutX="50.0" layoutY="76.0" prefHeight="39.0" prefWidth="122.0" />
+      <Button fx:id="btnClickMe" layoutX="198.0" layoutY="137.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="32.0" prefWidth="65.0" text="Calculate" />
+      <Label fx:id="lblResultat1" layoutX="180.0" layoutY="80.0" prefHeight="32.0" prefWidth="36.0" text="Tips" />
+      <TextArea fx:id="idTips" layoutX="212.0" layoutY="76.0" prefHeight="39.0" prefWidth="52.0" />
+      <Label fx:id="lblResultat2" layoutX="276.0" layoutY="80.0" prefHeight="32.0" prefWidth="67.0" text="Nb people" />
+      <TextArea fx:id="nbPersonne" layoutX="355.0" layoutY="76.0" prefHeight="39.0" prefWidth="114.0" />
+      <Label fx:id="lblResultat3" layoutX="14.0" layoutY="185.0" prefHeight="32.0" prefWidth="102.0" text="Tips (per persone)" />
+      <TextArea fx:id="tipsPers" layoutX="116.0" layoutY="181.0" prefHeight="39.0" prefWidth="52.0" />
+      <Label fx:id="lblResultat31" layoutX="173.0" layoutY="185.0" prefHeight="32.0" prefWidth="114.0" text="Total (per persone)" />
+      <TextArea fx:id="billPers" layoutX="276.0" layoutY="181.0" prefHeight="39.0" prefWidth="52.0" />
+      <TextArea fx:id="date" layoutX="357.0" layoutY="181.0" prefHeight="39.0" prefWidth="95.0" />
+      <Label fx:id="lblResultat21" layoutX="310.0" layoutY="18.0" prefHeight="32.0" prefWidth="42.0" />
+      <Label fx:id="message" layoutX="127.0" layoutY="18.0" prefHeight="32.0" prefWidth="226.0" />
+      <Label fx:id="lblResultat311" layoutX="331.0" layoutY="185.0" prefHeight="32.0" prefWidth="52.0" text="Date" />
+      <Button fx:id="btnVef" layoutX="452.0" layoutY="188.0" mnemonicParsing="false" onAction="#clickVef" prefHeight="26.0" prefWidth="36.0" text="X" />
+   </children>
+</AnchorPane>
